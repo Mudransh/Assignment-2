@@ -34,10 +34,14 @@ print("a|b: ",a|b)
 print("a^b: ",a^b)
 print("a<<2,b<<2: ",a<<2,b<<2)
 print("a>>2,b>>2: ",a>>2,b>>2)
+
 #Question4.
-s=str(input("Enter the string- "))
-result='name'in s
-print(result)
+s=str(input("Enter the string - "))
+t = s.find('name')
+if (t==-1):
+    print("No")
+else:
+    print("yes")
 
 #Question5.
 s1=int(input("Enter the value of side 1 of the triangle: "))
